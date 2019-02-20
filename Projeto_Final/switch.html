@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="bootstrap-4.3.1/css/bootstrap-reboot.min.css">
+        <link rel="stylesheet" href="bootstrap-4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="bootstrap-3.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style_leandro/style.css">
+    </head>
+    
+    <body>
+        <div class="container">
+            <div class="row m-2">
+                <div class="col-4">
+                    <p class="text-justify">
+                        Um  switch (ou comutador) é um equipamento activo que funciona normalmente na camada 2 do modelo OSI (Data Link) e tem como principal funcionalidade a interligação de equipamentos (estações de trabalho, servidores, etc) de uma rede uma vez que possui várias portas RJ45 (ou ISO 8877) fêmea.
+                    </p>
+                </div>
+                <div class="col-4">
+                    <img src="img/Switch/Foto_1.jpg" class="switch-1 img-fluid">
+                </div>
+            </div>
+
+            <div class="row m-2">
+                <div class="col-4">
+                    <img src="img/Switch/Foto_2.jpg" class="switch-2 float-right">
+                </div>
+                <div class="col-4">
+                    <p class="text-justify">
+                        Numa primeira fase (antes do switch saber quem tem ligado a ele), quando um switch recebe informação numa determinada porta, transmite esse mesma informação por todas as outras portas, excepto por aquela que recebeu essa informação (flood). No entanto, ao contrário dos Hubs, os switchs registam o endereço MAC dos dispositivos que estão ligados a cada porta do equipamento. Sempre que um equipamento envia uma frame (trama), o switch analisa o endereço MAC de destino e comuta a frame para a porta  onde se encontra a máquina de destino. Desta forma, numa rede Ethernet, o switch não necessita de propagar a informação por todas as portas, sendo esta directamente enviada (com base na informação da tabela MAC do switch) para a máquina de destino. O processamento das frames nos switchs é realizado com base no hardware através de chips especiais denominados de ASIC.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row m-2">
+                <div class="col-4">
+                    <p class="text-justify">
+                        Como podemos ver pela demonstração anterior, inicialmente o switch não tem qualquer informação sobre quem está ligado as suas portas. Quando o PC A envia uma informação para o PC B, o switch não sabe onde se encontra o PC B e envia essa informação por todas as portas excepto por aquela que recebem. O PC B “informa” que a informação é para si e o switch regista o endereço MAC das máquinas A e B e as respectivas portas onde se encontram ligadas. Numa próxima vez, se o PC A pretender comunicar com o PC B (ou vice-versa), o switch já sabe por que porta tem de enviar a informação.
+                    </p>
+                </div>
+                <div class="col-4">
+                    <img src="img/Switch/Foto_3.jpg" class="switch-3 img-fluid">
+                </div>
+            </div>
+        </div>
+
+        <!-- Versão 4.3 -->
+        <script src="bootstrap-4.3.1/js/jquery-3.3.1.slim.min.js"></script>
+        <script src="bootstrap-4.3.1/js/popper.min.js"></script>
+        <script src="bootstrap-4.3.1/js/bootstrap.min.js"></script>
+
+        <!-- Versão 3.3 -->
+        <script src="bootstrap-3.3/js/jquery.min.js"></script>
+        <script src="bootstrap-3.3/js/bootstrap.min.js"></script>
+    </body>
+</html>

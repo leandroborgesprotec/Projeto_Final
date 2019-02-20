@@ -1,0 +1,98 @@
+body
+{
+    background-image: linear-gradient(to right, silver, silver);
+    padding: 1%;
+    font-family: Verdana;
+    font-size: 13px;
+}
+
+header
+{
+    position: relative;
+}
+
+#carrossel_header
+{
+    position: absolute;
+    margin-left: 300px;
+    display: inline-block;
+    bottom: 58px;
+    overflow: auto;
+    width: 760px;
+    height: 330px;
+}
+
+nav
+{
+    position: absolute;
+}
+
+nav, h4
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: inline-block;
+    bottom: 0;
+}
+
+a
+{
+	color: black;
+}
+
+.logo
+{    
+    display: inline-block;
+    margin-bottom: 58px;
+}
+
+form
+{
+    width: 50%;
+}
+
+.mensagem
+{
+    width: 100%;
+}
+
+.fab
+{
+    font-size: 30px;
+}
+
+@media screen and (max-width: 768px)
+{
+    body
+	{
+		width: auto;
+    }
+    form
+	{
+        width: 100%;
+    }
+    strong
+	{
+        font-size: 21px;
+    }
+    .nome
+	{
+        width: 100%;
+    }
+    .email
+	{
+        width: 100%;
+    }
+    .telefone
+	{
+        width: 100%;
+    }
+    .assunto
+	{
+        width: 100%;
+    }    
+    .mensagem
+	{
+        width: 100%;
+    }
+}
