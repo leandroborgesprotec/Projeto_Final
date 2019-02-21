@@ -6,16 +6,15 @@ body
     font-size: 13px;
 }
 
-header
+.principal
 {
     position: relative;
 }
 
 .centralize
 {
-    position: absolute;
-    top: 10%;
-    bottom: 50%;
+    top: 10px;
+    
 }
 
 a
@@ -34,12 +33,10 @@ nav, h4
     margin-right: 20px;
     display: inline-block;
 }
-
-
 /*
 #carrossel_header
 {
-    position: absolute;
+    
     margin-left: 300px;
     display: inline-block;
     overflow: auto;
